@@ -302,7 +302,22 @@ textarea:focus-visible {
   object-fit: contain;
 }
 
+.no-image-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 140px;
+  color: var(--muted);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
 .preview[src=""] {
+  display: none;
+}
+
+.no-image-preview.hidden,
+.preview.hidden {
   display: none;
 }
 

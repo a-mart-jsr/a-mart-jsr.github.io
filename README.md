@@ -24,18 +24,20 @@ The site automatically adds an `All Offers` category on the landing page, so the
 }
 ```
 
-For a discount display, replace `price` with both `beforePrice` and `afterPrice`:
+For a discount display, keep `price` as the current price and add `beforePrice`:
 
 ```json
 {
   "categoryId": "fruits",
   "name": "Apples 1 kg",
+  "price": "Rs 120",
   "beforePrice": "Rs 150",
-  "afterPrice": "Rs 120",
   "image": "assets/products/apples.png",
   "offer": "Save Rs 30 today"
 }
 ```
+
+`image` can be an empty string when no image is available. The site will show `No image` in its place.
 
 The future C++ updater can write `data/offers.json`, copy the latest local images into `assets/products/`, then commit and push.
 

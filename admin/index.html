@@ -77,8 +77,8 @@
           </label>
 
           <label>
-            Single price
-            <input id="product-price" type="text" placeholder="Rs 120">
+            Price
+            <input id="product-price" type="text" placeholder="Rs 120" required>
           </label>
 
           <label>
@@ -86,12 +86,7 @@
             <input id="before-price" type="text" placeholder="Rs 150">
           </label>
 
-          <label>
-            After price
-            <input id="after-price" type="text" placeholder="Rs 120">
-          </label>
-
-          <p class="field-note price-note">Use either a single price, or both before price and after price for a discount display.</p>
+          <p class="field-note price-note">Fill before price only when you want to show an older crossed-out price. Price is always the current price.</p>
 
           <label>
             Offer text
@@ -101,7 +96,7 @@
           <div class="image-field">
             <label>
               Product image path
-              <input id="product-image" type="text" placeholder="assets/products/item.png" required>
+              <input id="product-image" type="text" placeholder="Leave blank for no image">
             </label>
             <label class="file-picker">
               Choose image
@@ -109,6 +104,7 @@
             </label>
             <p class="field-note">Images chosen from anywhere on this computer are copied into <code>assets/products/</code> when you update.</p>
             <img id="product-image-preview" class="preview" alt="">
+            <div id="product-no-image" class="preview no-image-preview">No image</div>
           </div>
 
           <label class="checkbox-label">
@@ -125,7 +121,7 @@
             <div class="image-field">
               <label>
                 Free item image path
-                <input id="free-image" type="text" placeholder="assets/products/free-item.png">
+                <input id="free-image" type="text" placeholder="Leave blank for no image">
               </label>
               <label class="file-picker">
                 Choose image
@@ -133,6 +129,7 @@
               </label>
               <p class="field-note">Images chosen from anywhere on this computer are copied into <code>assets/products/</code> when you update.</p>
               <img id="free-image-preview" class="preview" alt="">
+              <div id="free-no-image" class="preview no-image-preview">No image</div>
             </div>
           </div>
 

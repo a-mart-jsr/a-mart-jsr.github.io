@@ -197,6 +197,15 @@ h2 {
   object-fit: cover;
 }
 
+.no-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
 .product-body {
   padding: 14px;
 }
@@ -229,7 +238,7 @@ h2 {
   text-decoration: line-through;
 }
 
-.after-price {
+.current-price {
   color: var(--accent-dark);
   font-size: 1.25rem;
   font-weight: 900;
@@ -255,7 +264,7 @@ h2 {
   background: #f4fbf7;
 }
 
-.free-item img {
+.free-image {
   width: 72px;
   height: 72px;
   border-radius: 8px;

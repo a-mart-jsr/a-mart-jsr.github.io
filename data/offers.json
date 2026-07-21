@@ -29,7 +29,7 @@
       "image": "assets/products/amul-fn-and-butter-1784047706051.png",
       "offer": "10% off when bought together",
       "beforePrice": "Rs 450",
-      "afterPrice": "Rs 400"
+      "price": "Rs 400"
     },
     {
       "categoryId": "frozen",

@@ -19,10 +19,6 @@
     return fallback;
   }
 
-  function image(value) {
-    return text(value, "assets/products/placeholder.png");
-  }
-
   function formatUpdatedAt(value) {
     const raw = text(value, "");
     if (!raw) {
@@ -99,9 +95,9 @@
 
   function createPriceNode(product) {
     const beforePrice = text(product.beforePrice, "");
-    const afterPrice = text(product.afterPrice, "");
+    const currentPrice = text(product.price, "");
 
-    if (beforePrice && afterPrice) {
+    if (beforePrice && currentPrice) {
       const block = document.createElement("p");
       block.className = "price-block";
 
@@ -111,8 +107,8 @@
       block.appendChild(before);
 
       const after = document.createElement("span");
-      after.className = "after-price";
-      after.textContent = afterPrice;
+      after.className = "current-price";
+      after.textContent = currentPrice;
       block.appendChild(after);
 
       return block;
@@ -124,16 +120,28 @@
     return price;
   }
 
+  function createImageNode(src, alt, className) {
+    const imagePath = text(src, "");
+    if (!imagePath) {
+      const noImage = document.createElement("div");
+      noImage.className = className + " no-image";
+      noImage.textContent = "No image";
+      return noImage;
+    }
+
+    const node = document.createElement("img");
+    node.className = className;
+    node.src = imagePath;
+    node.alt = alt;
+    node.loading = "lazy";
+    return node;
+  }
+
   function createProductCard(product) {
     const card = document.createElement("article");
     card.className = "product-card";
 
-    const productImage = document.createElement("img");
-    productImage.className = "product-image";
-    productImage.src = image(product.image);
-    productImage.alt = text(product.name, "Product image");
-    productImage.loading = "lazy";
-    card.appendChild(productImage);
+    card.appendChild(createImageNode(product.image, text(product.name, "Product image"), "product-image"));
 
     const body = document.createElement("div");
     body.className = "product-body";
@@ -154,11 +162,7 @@
       const freeItem = document.createElement("div");
       freeItem.className = "free-item";
 
-      const freeImage = document.createElement("img");
-      freeImage.src = image(product.freeItem.image);
-      freeImage.alt = text(product.freeItem.name, "Free item image");
-      freeImage.loading = "lazy";
-      freeItem.appendChild(freeImage);
+      freeItem.appendChild(createImageNode(product.freeItem.image, text(product.freeItem.name, "Free item image"), "free-image"));
 
       const freeCopy = document.createElement("div");
       const freeLabel = document.createElement("p");

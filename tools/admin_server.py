@@ -65,35 +65,28 @@ def normalize_offer_data(payload):
 
         price = clean_text(product.get("price"))
         before_price = clean_text(product.get("beforePrice"))
-        after_price = clean_text(product.get("afterPrice"))
-        if before_price or after_price:
-            if not before_price or not after_price:
-                raise ValueError("Discount pricing needs both before price and after price.")
-            price = ""
-        elif not price:
-            raise ValueError("Every product needs either a single price or both before and after prices.")
+        if not price:
+            raise ValueError("Every product needs a current price.")
 
         normalized = {
             "categoryId": category_id,
             "name": clean_text(product.get("name")),
             "image": clean_text(product.get("image")),
             "offer": clean_text(product.get("offer")),
+            "price": price,
         }
-        if before_price and after_price:
+        if before_price:
             normalized["beforePrice"] = before_price
-            normalized["afterPrice"] = after_price
-        else:
-            normalized["price"] = price
-        if not all(normalized.values()):
-            raise ValueError("Every product needs category, name, image, offer text, and price details.")
+        if not normalized["categoryId"] or not normalized["name"] or not normalized["offer"] or not normalized["price"]:
+            raise ValueError("Every product needs category, name, offer text, and price.")
 
         free_item = product.get("freeItem")
         if isinstance(free_item, dict):
             free_name = clean_text(free_item.get("name"))
             free_image = clean_text(free_item.get("image"))
             if free_name or free_image:
-                if not free_name or not free_image:
-                    raise ValueError("Free items need both a name and an image.")
+                if not free_name:
+                    raise ValueError("Free items need a name.")
                 normalized["freeItem"] = {"name": free_name, "image": free_image}
 
         normalized_products.append(normalized)
