@@ -55,7 +55,36 @@ Then open `http://localhost:8000/`.
 
 The local editor is a private tool for updating `data/offers.json` from a browser. It is not needed on GitHub Pages and should be run only on your computer.
 
-On Windows, run:
+### New Machine Setup
+
+Needed on a new Windows machine:
+
+- Git, so the project can be cloned, committed, and pushed.
+- Python 3, so the local admin server can run.
+- A browser, such as Edge or Chrome.
+- GitHub access to the repository. The folder should be a real Git clone, not a downloaded ZIP, if the admin `Update` button should push.
+- Git commit identity, meaning `user.name` and `user.email`.
+
+Automatic setup:
+
+```powershell
+.\scripts\setup-machine.ps1
+```
+
+This installs Git and Python with `winget` if they are missing, sets up Git Credential Manager, and asks for Git commit name/email when needed. If `winget` is not available, install Git and Python manually.
+
+The first `git push` on a new machine may open a GitHub sign-in window. Complete that once, then the admin `Update` button can reuse the saved credential.
+
+Manual setup:
+
+```powershell
+winget install --id Git.Git --exact --source winget
+winget install --id Python.Python.3.12 --exact --source winget
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+```
+
+After cloning the repository, run:
 
 ```powershell
 .\scripts\setup-admin.ps1
