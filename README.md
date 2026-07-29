@@ -68,10 +68,10 @@ Needed on a new Windows machine:
 Automatic setup:
 
 ```powershell
-.\scripts\setup-machine.ps1
+.\setup-machine.bat
 ```
 
-This installs Git and Python with `winget` if they are missing, sets up Git Credential Manager, and asks for Git commit name/email when needed. If `winget` is not available, install Git and Python manually.
+Double-click `setup-machine.bat` from the project root, or run it from PowerShell/CMD. It calls the PowerShell setup script for you, so Windows will not open the script in Notepad. This installs Git and Python with `winget` if they are missing, sets up Git Credential Manager, and asks for Git commit name/email when needed. If `winget` is not available, install Git and Python manually.
 
 The first `git push` on a new machine may open a GitHub sign-in window. Complete that once, then the admin `Update` button can reuse the saved credential.
 
