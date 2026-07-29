@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21",
+  "updatedAt": "2026-07-29",
   "categories": [
     {
       "id": "frozen",
@@ -28,8 +28,8 @@
       "name": "Amul Fruit 'N' Nut Fantasy & Butterscotch Gold",
       "image": "assets/products/amul-fn-and-butter-1784047706051.png",
       "offer": "10% off when bought together",
-      "beforePrice": "Rs 450",
-      "price": "Rs 400"
+      "price": "Rs 400",
+      "beforePrice": "Rs 450"
     },
     {
       "categoryId": "frozen",
@@ -84,6 +84,14 @@
         "name": "Pringles Original 40g",
         "image": "assets/products/pringles_mini.png"
       }
+    },
+    {
+      "categoryId": "snacks",
+      "name": "Lays",
+      "image": "",
+      "offer": "50% Off",
+      "price": "Rs 10",
+      "beforePrice": "Rs 20"
     }
   ]
 }
