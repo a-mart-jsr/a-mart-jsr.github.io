@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29",
+  "updatedAt": "2026-08-14",
   "categories": [
     {
       "id": "frozen",
@@ -20,6 +20,10 @@
     {
       "id": "snacks",
       "name": "Snacks"
+    },
+    {
+      "id": "rakhi",
+      "name": "Rakhi"
     }
   ],
   "products": [
@@ -92,6 +96,14 @@
       "offer": "Flat 50% Off",
       "price": "Rs 10",
       "beforePrice": "Rs 20"
+    },
+    {
+      "categoryId": "rakhi",
+      "name": "Rakhi",
+      "image": "assets/products/rakhi-1786702221769.jpeg",
+      "offer": "25% Off",
+      "price": "Rs. 75",
+      "beforePrice": "Rs. 100"
     }
   ]
 }
