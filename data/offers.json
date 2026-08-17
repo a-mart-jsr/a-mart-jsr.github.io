@@ -194,14 +194,14 @@
       "name": "Jerry Charm Kids Rakhi",
       "image": "assets/products/jerry-charm-kids-rakhi-1786969373548.png",
       "offer": "5% Off",
-      "price": "Rs 80"
+      "price": "Rs 60"
     },
     {
       "categoryId": "rakhi",
       "name": "Bal Ganesh Kids Rakhi",
       "image": "assets/products/bal-hanuman-kids-rakhi-1786969433730.png",
       "offer": "5% OFF",
-      "price": "RS 80"
+      "price": "RS 60"
     }
   ]
 }
