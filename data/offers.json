@@ -139,6 +139,13 @@
       "image": "assets/products/bhai-rakhi-1786967377740.jpeg",
       "offer": "5%Off",
       "price": "Rs 60"
+    },
+    {
+      "categoryId": "rakhi",
+      "name": "Mor Pankh Rakhi",
+      "image": "assets/products/mor-rakhi-1786967422583.jpeg",
+      "offer": "5% Off",
+      "price": "Rs. 70"
     }
   ]
 }
