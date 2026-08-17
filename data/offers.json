@@ -2,101 +2,11 @@
   "updatedAt": "2026-08-17",
   "categories": [
     {
-      "id": "frozen",
-      "name": "Frozen"
-    },
-    {
-      "id": "stationery",
-      "name": "Stationery"
-    },
-    {
-      "id": "grains",
-      "name": "Grains"
-    },
-    {
-      "id": "cosmetics",
-      "name": "Cosmetics"
-    },
-    {
-      "id": "snacks",
-      "name": "Snacks"
-    },
-    {
       "id": "rakhi",
       "name": "Rakhi"
     }
   ],
   "products": [
-    {
-      "categoryId": "frozen",
-      "name": "Amul Fruit 'N' Nut Fantasy & Butterscotch Gold",
-      "image": "assets/products/amul-fn-and-butter-1784047706051.png",
-      "offer": "10% off when bought together",
-      "price": "Rs 400",
-      "beforePrice": "Rs 450"
-    },
-    {
-      "categoryId": "frozen",
-      "name": "Amul Fruit 'N' Nut Fantasy",
-      "image": "assets/products/amul_fn.png",
-      "offer": "Buy 1, get an Amul chocobar free",
-      "price": "Rs 230",
-      "freeItem": {
-        "name": "Amul Chocobar",
-        "image": "assets/products/amul_chocobar.png"
-      }
-    },
-    {
-      "categoryId": "stationery",
-      "name": "DOMS Geometry Box",
-      "image": "assets/products/doms_geo.png",
-      "offer": "Buy 2, Save Rs 50",
-      "price": "Rs 70"
-    },
-    {
-      "categoryId": "stationery",
-      "name": "DOMS Zoom Ultimate Dark Pencil Pack",
-      "image": "assets/products/doms_pencils.jpg",
-      "offer": "Free erasers with this pack",
-      "price": "Rs 54",
-      "freeItem": {
-        "name": "3 DOMS Erasers",
-        "image": "assets/products/doms_erasers.png"
-      }
-    },
-    {
-      "categoryId": "grains",
-      "name": "Kidney Beans",
-      "image": "assets/products/kidney_beans.png",
-      "offer": "Save Rs 10, per Kg",
-      "price": "Rs 90"
-    },
-    {
-      "categoryId": "cosmetics",
-      "name": "Fogg Fresh Spicy",
-      "image": "assets/products/fogg.png",
-      "offer": "Flat Rs 55 off",
-      "price": "Rs 220"
-    },
-    {
-      "categoryId": "snacks",
-      "name": "Pringles Original 107g",
-      "image": "assets/products/pringles_large.jpg",
-      "offer": "Buy 2, get 1 Pringles Original 40g free",
-      "price": "Rs 110",
-      "freeItem": {
-        "name": "Pringles Original 40g",
-        "image": "assets/products/pringles_mini.png"
-      }
-    },
-    {
-      "categoryId": "snacks",
-      "name": "Lays",
-      "image": "assets/products/lays-1785322077458.webp",
-      "offer": "Flat 50% Off",
-      "price": "Rs 10",
-      "beforePrice": "Rs 20"
-    },
     {
       "categoryId": "rakhi",
       "name": "Rajwadi Kundan Rakhi",
@@ -104,13 +14,6 @@
       "offer": "25% Off",
       "price": "Rs. 75",
       "beforePrice": "Rs. 100"
-    },
-    {
-      "categoryId": "grains",
-      "name": "Rajma",
-      "image": "assets/products/kidney-beans-1786966481463.png",
-      "offer": "B1G1",
-      "price": "Rs 68"
     },
     {
       "categoryId": "rakhi",
