@@ -174,6 +174,13 @@
       "image": "assets/products/beadwork-rakhi-1786969215010.png",
       "offer": "10% Off",
       "price": "Rs 35"
+    },
+    {
+      "categoryId": "rakhi",
+      "name": "Rudraksha Om Rakhi",
+      "image": "assets/products/rudraksha-om-rakhi-1786969260950.png",
+      "offer": "5% Off",
+      "price": "Rs 40"
     }
   ]
 }
