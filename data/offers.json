@@ -181,6 +181,13 @@
       "image": "assets/products/rudraksha-om-rakhi-1786969260950.png",
       "offer": "5% Off",
       "price": "Rs 40"
+    },
+    {
+      "categoryId": "rakhi",
+      "name": "Rainbow Radiance Rakhi",
+      "image": "assets/products/rainbow-radiance-rakhi-1786969320325.png",
+      "offer": "5% Off",
+      "price": "Rs 55"
     }
   ]
 }
