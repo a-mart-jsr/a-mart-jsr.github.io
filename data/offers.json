@@ -12,8 +12,8 @@
       "name": "Rajwadi Kundan Rakhi",
       "image": "assets/products/rakhi-1786702221769.jpeg",
       "offer": "25% Off",
-      "price": "Rs. 75",
-      "beforePrice": "Rs. 100"
+      "price": "Rs 75",
+      "beforePrice": "Rs 100"
     },
     {
       "categoryId": "rakhi",
@@ -40,22 +40,25 @@
       "categoryId": "rakhi",
       "name": "Shahi Bhai Rakhi",
       "image": "assets/products/bhai-rakhi-1786967377740.jpeg",
-      "offer": "5%Off",
-      "price": "Rs 35"
+      "offer": "5% Off",
+      "price": "Rs 33",
+      "beforePrice": "Rs 35"
     },
     {
       "categoryId": "rakhi",
       "name": "Mor Pankh Rakhi",
       "image": "assets/products/mor-rakhi-1786967422583.jpeg",
       "offer": "5% Off",
-      "price": "Rs. 35"
+      "price": "Rs 33",
+      "beforePrice": "Rs 35"
     },
     {
       "categoryId": "rakhi",
       "name": "Pearl Rakhi",
       "image": "assets/products/pearl-rakhi-1786967904442.jpeg",
       "offer": "5% Off",
-      "price": "Rs. 30"
+      "price": "Rs 28.5",
+      "beforePrice": "Rs 30"
     },
     {
       "categoryId": "rakhi",
