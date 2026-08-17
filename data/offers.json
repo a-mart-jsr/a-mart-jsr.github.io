@@ -146,6 +146,13 @@
       "image": "assets/products/mor-rakhi-1786967422583.jpeg",
       "offer": "5% Off",
       "price": "Rs. 70"
+    },
+    {
+      "categoryId": "rakhi",
+      "name": "Pearl Rakhi",
+      "image": "assets/products/pearl-rakhi-1786967904442.jpeg",
+      "offer": "5% Off",
+      "price": "Rs. 75"
     }
   ]
 }
