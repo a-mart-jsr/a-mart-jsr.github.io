@@ -1,5 +1,6 @@
 {
   "updatedAt": "2026-08-17",
+  "currency": "Rs",
   "categories": [
     {
       "id": "rakhi",
@@ -41,24 +42,21 @@
       "name": "Shahi Bhai Rakhi",
       "image": "assets/products/bhai-rakhi-1786967377740.jpeg",
       "offer": "5% Off",
-      "price": "Rs 33",
-      "beforePrice": "Rs 35"
+      "price": "35"
     },
     {
       "categoryId": "rakhi",
       "name": "Mor Pankh Rakhi",
       "image": "assets/products/mor-rakhi-1786967422583.jpeg",
       "offer": "5% Off",
-      "price": "Rs 33",
-      "beforePrice": "Rs 35"
+      "price": "35"
     },
     {
       "categoryId": "rakhi",
       "name": "Pearl Rakhi",
       "image": "assets/products/pearl-rakhi-1786967904442.jpeg",
       "offer": "5% Off",
-      "price": "Rs 28.5",
-      "beforePrice": "Rs 30"
+      "price": "30"
     },
     {
       "categoryId": "rakhi",
