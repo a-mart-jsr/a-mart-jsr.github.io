@@ -9,6 +9,7 @@
   ],
   "products": [
     {
+      "id": "prod-rakhi-rajwadi-kundan-rakhi-rakhi-1786702221769",
       "categoryId": "rakhi",
       "name": "Rajwadi Kundan Rakhi",
       "image": "assets/products/rakhi-1786702221769.jpeg",
@@ -17,6 +18,7 @@
       "beforePrice": "100"
     },
     {
+      "id": "prod-rakhi-peacock-rakhi-peacock-rakhi-1786966558368",
       "categoryId": "rakhi",
       "name": "Peacock Rakhi",
       "image": "assets/products/peacock-rakhi-1786966558368.jpeg",
@@ -25,6 +27,7 @@
       "beforePrice": "50"
     },
     {
+      "id": "prod-rakhi-multicolour-rakhi-kundan-rakhi-1786966631007",
       "categoryId": "rakhi",
       "name": "Multicolour Rakhi",
       "image": "assets/products/kundan-rakhi-1786966631007.jpeg",
@@ -33,6 +36,7 @@
       "beforePrice": "45"
     },
     {
+      "id": "prod-rakhi-cartoon-rakhi-children-rakhi-1786967137886",
       "categoryId": "rakhi",
       "name": "Cartoon Rakhi",
       "image": "assets/products/children-rakhi-1786967137886.jpeg",
@@ -41,6 +45,7 @@
       "beforePrice": "70"
     },
     {
+      "id": "prod-rakhi-shahi-bhai-rakhi-bhai-rakhi-1786967377740",
       "categoryId": "rakhi",
       "name": "Shahi Bhai Rakhi",
       "image": "assets/products/bhai-rakhi-1786967377740.jpeg",
@@ -49,6 +54,7 @@
       "beforePrice": "40"
     },
     {
+      "id": "prod-rakhi-mor-pankh-rakhi-mor-rakhi-1786967422583",
       "categoryId": "rakhi",
       "name": "Mor Pankh Rakhi",
       "image": "assets/products/mor-rakhi-1786967422583.jpeg",
@@ -57,6 +63,7 @@
       "beforePrice": "40"
     },
     {
+      "id": "prod-rakhi-pearl-rakhi-pearl-rakhi-1786967904442",
       "categoryId": "rakhi",
       "name": "Pearl Rakhi",
       "image": "assets/products/pearl-rakhi-1786967904442.jpeg",
@@ -65,6 +72,7 @@
       "beforePrice": "35"
     },
     {
+      "id": "prod-rakhi-crystal-rakhi-crystak-rakhi-1786967956552",
       "categoryId": "rakhi",
       "name": "Crystal Rakhi",
       "image": "assets/products/crystak-rakhi-1786967956552.jpeg",
@@ -73,6 +81,7 @@
       "beforePrice": "20"
     },
     {
+      "id": "prod-rakhi-golden-elegance-rakhi-rakhi-1786969134449",
       "categoryId": "rakhi",
       "name": "Golden Elegance Rakhi",
       "image": "assets/products/rakhi-1786969134449.png",
@@ -81,6 +90,7 @@
       "beforePrice": "30"
     },
     {
+      "id": "prod-rakhi-beadwork-rakhi-beadwork-rakhi-1786969215010",
       "categoryId": "rakhi",
       "name": "Beadwork Rakhi",
       "image": "assets/products/beadwork-rakhi-1786969215010.png",
@@ -89,6 +99,7 @@
       "beforePrice": "20"
     },
     {
+      "id": "prod-rakhi-rudraksha-om-rakhi-rudraksha-om-rakhi-1786969260950",
       "categoryId": "rakhi",
       "name": "Rudraksha Om Rakhi",
       "image": "assets/products/rudraksha-om-rakhi-1786969260950.png",
@@ -97,6 +108,7 @@
       "beforePrice": "20"
     },
     {
+      "id": "prod-rakhi-rainbow-radiance-rakhi-rainbow-radiance-rakhi-1786969320325",
       "categoryId": "rakhi",
       "name": "Rainbow Radiance Rakhi",
       "image": "assets/products/rainbow-radiance-rakhi-1786969320325.png",
@@ -105,6 +117,7 @@
       "beforePrice": "25"
     },
     {
+      "id": "prod-rakhi-jerry-charm-kids-rakhi-jerry-charm-kids-rakhi-1786969373548",
       "categoryId": "rakhi",
       "name": "Jerry Charm Kids Rakhi",
       "image": "assets/products/jerry-charm-kids-rakhi-1786969373548.png",
@@ -113,6 +126,7 @@
       "beforePrice": "85"
     },
     {
+      "id": "prod-rakhi-bal-ganesh-kids-rakhi-bal-hanuman-kids-rakhi-1786969433730",
       "categoryId": "rakhi",
       "name": "Bal Ganesh Kids Rakhi",
       "image": "assets/products/bal-hanuman-kids-rakhi-1786969433730.png",
