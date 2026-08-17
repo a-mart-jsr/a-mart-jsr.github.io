@@ -132,6 +132,13 @@
       "image": "assets/products/children-rakhi-1786967137886.jpeg",
       "offer": "Rakhi for kids",
       "price": "Rs 80"
+    },
+    {
+      "categoryId": "rakhi",
+      "name": "Shahi Bhai Rakhi",
+      "image": "assets/products/bhai-rakhi-1786967377740.jpeg",
+      "offer": "5%Off",
+      "price": "Rs 60"
     }
   ]
 }
