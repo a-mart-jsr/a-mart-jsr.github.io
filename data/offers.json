@@ -188,6 +188,13 @@
       "image": "assets/products/rainbow-radiance-rakhi-1786969320325.png",
       "offer": "5% Off",
       "price": "Rs 55"
+    },
+    {
+      "categoryId": "rakhi",
+      "name": "Jerry Charm Kids Rakhi",
+      "image": "assets/products/jerry-charm-kids-rakhi-1786969373548.png",
+      "offer": "5% Off",
+      "price": "Rs 80"
     }
   ]
 }
