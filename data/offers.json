@@ -104,6 +104,13 @@
       "offer": "25% Off",
       "price": "Rs. 75",
       "beforePrice": "Rs. 100"
+    },
+    {
+      "categoryId": "grains",
+      "name": "Rajma",
+      "image": "assets/products/kidney-beans-1786966481463.png",
+      "offer": "B1G1",
+      "price": "Rs 68"
     }
   ]
 }
