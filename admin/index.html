@@ -26,12 +26,21 @@
       <section class="panel">
         <div class="panel-title">
           <h2>Store Data</h2>
-          <label>
-            Last updated
-            <input id="updated-at" type="date" disabled>
-          </label>
+          <div class="store-fields">
+            <label>
+              Currency text
+              <input id="currency-text" type="text" placeholder="Rs">
+            </label>
+            <label>
+              Last updated
+              <input id="updated-at" type="date" disabled>
+            </label>
+          </div>
         </div>
-        <p class="field-note">This is set automatically to today's date when you update.</p>
+        <div class="panel-actions">
+          <button id="cleanup-images" class="button secondary" type="button">Remove Unused Images</button>
+        </div>
+        <p class="field-note">Currency is added automatically when prices are shown. Last updated is set automatically to today's date when you update.</p>
       </section>
 
       <section class="layout-grid">
@@ -78,15 +87,41 @@
 
           <label>
             Price
-            <input id="product-price" type="text" placeholder="Rs 120" required>
+            <input id="product-price" type="text" placeholder="120" required>
           </label>
 
           <label>
             Before price
-            <input id="before-price" type="text" placeholder="Rs 150">
+            <input id="before-price" type="text" placeholder="150">
           </label>
 
-          <p class="field-note price-note">Fill before price only when you want to show an older crossed-out price. Price is always the current price.</p>
+          <div class="discount-tool">
+            <label>
+              Discount percentage
+              <input id="discount-percent" type="number" min="0" max="100" step="0.01" placeholder="10">
+            </label>
+            <fieldset class="rounding-options">
+              <legend>Rounding</legend>
+              <label>
+                <input type="radio" name="discount-rounding" value="down" checked>
+                <span>Round down</span>
+              </label>
+              <label>
+                <input type="radio" name="discount-rounding" value="up">
+                <span>Round up</span>
+              </label>
+              <label>
+                <input type="radio" name="discount-rounding" value="none">
+                <span>No round</span>
+              </label>
+            </fieldset>
+            <div class="discount-actions">
+              <button id="calculate-current-price" class="button secondary" type="button">Calculate Current Price</button>
+              <button id="calculate-before-price" class="button secondary" type="button">Calculate Before Price</button>
+            </div>
+          </div>
+
+          <p class="field-note price-note">Fill before price only when you want to show an older crossed-out price. Price is always the current price; the currency text is added for you.</p>
 
           <label>
             Offer text

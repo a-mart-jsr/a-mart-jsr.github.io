@@ -14,8 +14,8 @@
       "name": "Rajwadi Kundan Rakhi",
       "image": "assets/products/rakhi-1786702221769.jpeg",
       "offer": "25% Off",
-      "price": "75",
-      "beforePrice": "100"
+      "price": "Rs 75",
+      "beforePrice": "Rs 100"
     },
     {
       "id": "prod-rakhi-peacock-rakhi-peacock-rakhi-1786966558368",
@@ -23,8 +23,8 @@
       "name": "Peacock Rakhi",
       "image": "assets/products/peacock-rakhi-1786966558368.jpeg",
       "offer": "20% Off",
-      "price": "40",
-      "beforePrice": "50"
+      "price": "Rs 40",
+      "beforePrice": "Rs 50"
     },
     {
       "id": "prod-rakhi-multicolour-rakhi-kundan-rakhi-1786966631007",
@@ -32,8 +32,8 @@
       "name": "Multicolour Rakhi",
       "image": "assets/products/kundan-rakhi-1786966631007.jpeg",
       "offer": "23% Off",
-      "price": "35",
-      "beforePrice": "45"
+      "price": "Rs 35",
+      "beforePrice": "Rs 45"
     },
     {
       "id": "prod-rakhi-cartoon-rakhi-children-rakhi-1786967137886",
@@ -41,8 +41,8 @@
       "name": "Cartoon Rakhi",
       "image": "assets/products/children-rakhi-1786967137886.jpeg",
       "offer": "15% Off. Rakhi for kids.",
-      "price": "60",
-      "beforePrice": "70"
+      "price": "Rs 60",
+      "beforePrice": "Rs 70"
     },
     {
       "id": "prod-rakhi-shahi-bhai-rakhi-bhai-rakhi-1786967377740",
@@ -50,8 +50,8 @@
       "name": "Shahi Bhai Rakhi",
       "image": "assets/products/bhai-rakhi-1786967377740.jpeg",
       "offer": "14% Off",
-      "price": "35",
-      "beforePrice": "40"
+      "price": "Rs 35",
+      "beforePrice": "Rs 40"
     },
     {
       "id": "prod-rakhi-mor-pankh-rakhi-mor-rakhi-1786967422583",
@@ -59,8 +59,8 @@
       "name": "Mor Pankh Rakhi",
       "image": "assets/products/mor-rakhi-1786967422583.jpeg",
       "offer": "14% Off",
-      "price": "35",
-      "beforePrice": "40"
+      "price": "Rs 35",
+      "beforePrice": "Rs 40"
     },
     {
       "id": "prod-rakhi-pearl-rakhi-pearl-rakhi-1786967904442",
@@ -68,8 +68,8 @@
       "name": "Pearl Rakhi",
       "image": "assets/products/pearl-rakhi-1786967904442.jpeg",
       "offer": "15% Off",
-      "price": "30",
-      "beforePrice": "35"
+      "price": "Rs 30",
+      "beforePrice": "Rs 35"
     },
     {
       "id": "prod-rakhi-crystal-rakhi-crystak-rakhi-1786967956552",
@@ -77,8 +77,8 @@
       "name": "Crystal Rakhi",
       "image": "assets/products/crystak-rakhi-1786967956552.jpeg",
       "offer": "25% Off",
-      "price": "15",
-      "beforePrice": "20"
+      "price": "Rs 15",
+      "beforePrice": "Rs 20"
     },
     {
       "id": "prod-rakhi-golden-elegance-rakhi-rakhi-1786969134449",
@@ -86,8 +86,8 @@
       "name": "Golden Elegance Rakhi",
       "image": "assets/products/rakhi-1786969134449.png",
       "offer": "18% Off",
-      "price": "25",
-      "beforePrice": "30"
+      "price": "Rs 25",
+      "beforePrice": "Rs 30"
     },
     {
       "id": "prod-rakhi-beadwork-rakhi-beadwork-rakhi-1786969215010",
@@ -95,8 +95,8 @@
       "name": "Beadwork Rakhi",
       "image": "assets/products/beadwork-rakhi-1786969215010.png",
       "offer": "25% Off",
-      "price": "15",
-      "beforePrice": "20"
+      "price": "Rs 15",
+      "beforePrice": "Rs 20"
     },
     {
       "id": "prod-rakhi-rudraksha-om-rakhi-rudraksha-om-rakhi-1786969260950",
@@ -104,8 +104,8 @@
       "name": "Rudraksha Om Rakhi",
       "image": "assets/products/rudraksha-om-rakhi-1786969260950.png",
       "offer": "25% Off",
-      "price": "15",
-      "beforePrice": "20"
+      "price": "Rs 15",
+      "beforePrice": "Rs 20"
     },
     {
       "id": "prod-rakhi-rainbow-radiance-rakhi-rainbow-radiance-rakhi-1786969320325",
@@ -113,8 +113,8 @@
       "name": "Rainbow Radiance Rakhi",
       "image": "assets/products/rainbow-radiance-rakhi-1786969320325.png",
       "offer": "20% Off",
-      "price": "20",
-      "beforePrice": "25"
+      "price": "Rs 20",
+      "beforePrice": "Rs 25"
     },
     {
       "id": "prod-rakhi-jerry-charm-kids-rakhi-jerry-charm-kids-rakhi-1786969373548",
@@ -122,8 +122,8 @@
       "name": "Jerry Charm Kids Rakhi",
       "image": "assets/products/jerry-charm-kids-rakhi-1786969373548.png",
       "offer": "30% Off",
-      "price": "60",
-      "beforePrice": "85"
+      "price": "Rs 60",
+      "beforePrice": "Rs 85"
     },
     {
       "id": "prod-rakhi-bal-ganesh-kids-rakhi-bal-hanuman-kids-rakhi-1786969433730",
@@ -131,8 +131,8 @@
       "name": "Bal Ganesh Kids Rakhi",
       "image": "assets/products/bal-hanuman-kids-rakhi-1786969433730.png",
       "offer": "15% Off",
-      "price": "60",
-      "beforePrice": "70"
+      "price": "Rs 60",
+      "beforePrice": "Rs 70"
     }
   ]
 }

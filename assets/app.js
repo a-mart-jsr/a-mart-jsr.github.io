@@ -19,6 +19,19 @@
     return fallback;
   }
 
+  function formatPrice(value, currency) {
+    const raw = text(value, "");
+    if (!raw) {
+      return "";
+    }
+
+    if (/[^0-9.,\s-]/.test(raw)) {
+      return raw;
+    }
+
+    return [text(currency, "Rs"), raw].filter(Boolean).join(" ");
+  }
+
   function formatUpdatedAt(value) {
     const raw = text(value, "");
     if (!raw) {
@@ -93,7 +106,7 @@
     });
   }
 
-  function createPriceNode(product) {
+  function createPriceNode(product, currency) {
     const beforePrice = text(product.beforePrice, "");
     const currentPrice = text(product.price, "");
 
@@ -103,12 +116,12 @@
 
       const before = document.createElement("span");
       before.className = "before-price";
-      before.textContent = beforePrice;
+      before.textContent = formatPrice(beforePrice, currency);
       block.appendChild(before);
 
       const after = document.createElement("span");
       after.className = "current-price";
-      after.textContent = currentPrice;
+      after.textContent = formatPrice(currentPrice, currency);
       block.appendChild(after);
 
       return block;
@@ -116,7 +129,7 @@
 
     const price = document.createElement("p");
     price.className = "price";
-    price.textContent = text(product.price, "Price not listed");
+    price.textContent = formatPrice(product.price, currency) || "Price not listed";
     return price;
   }
 
@@ -137,7 +150,7 @@
     return node;
   }
 
-  function createProductCard(product) {
+  function createProductCard(product, currency) {
     const card = document.createElement("article");
     card.className = "product-card";
 
@@ -151,7 +164,7 @@
     name.textContent = text(product.name, "Unnamed product");
     body.appendChild(name);
 
-    body.appendChild(createPriceNode(product));
+    body.appendChild(createPriceNode(product, currency));
 
     const offer = document.createElement("p");
     offer.className = "offer";
@@ -209,7 +222,7 @@
     }
 
     visibleProducts.forEach((product) => {
-      list.appendChild(createProductCard(product));
+      list.appendChild(createProductCard(product, data.currency));
     });
   }
 

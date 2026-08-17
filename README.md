@@ -6,12 +6,13 @@ This is a plain static site for GitHub Pages. It has no build step and no backen
 
 Update `data/offers.json` and add product images under `assets/products/`.
 
-Each product belongs to a category by `categoryId`. The optional `freeItem` object shows another product image and name when the offer includes a free item.
+Each product belongs to a category by `categoryId`. Each product also has a stable hidden `id`, which lets the local editor merge changes from more than one computer. The optional `freeItem` object shows another product image and name when the offer includes a free item.
 
 The site automatically adds an `All Offers` category on the landing page, so the updater only needs to write the real product categories.
 
 ```json
 {
+  "id": "prod-fruits-apples-1-kg",
   "categoryId": "fruits",
   "name": "Apples 1 kg",
   "price": "Rs 120",
@@ -28,6 +29,7 @@ For a discount display, keep `price` as the current price and add `beforePrice`:
 
 ```json
 {
+  "id": "prod-fruits-apples-1-kg",
   "categoryId": "fruits",
   "name": "Apples 1 kg",
   "price": "Rs 120",
@@ -37,9 +39,11 @@ For a discount display, keep `price` as the current price and add `beforePrice`:
 }
 ```
 
+The editor lets you type numeric prices like `120`, but it saves prices into `data/offers.json` with the currency text included, such as `Rs 120`. This keeps the GitHub Pages site correct even if a browser has older JavaScript cached.
+
 `image` can be an empty string when no image is available. The site will show `No image` in its place.
 
-The future C++ updater can write `data/offers.json`, copy the latest local images into `assets/products/`, then commit and push.
+The future C++ updater can write `data/offers.json`, copy the latest local images into `assets/products/`, then commit and push. It should preserve each existing product `id` when updating a product, and should write prices with the currency text included.
 
 ## Run Locally
 
@@ -95,9 +99,11 @@ Then open `http://127.0.0.1:9000/admin/`.
 
 Or double-click `start-admin.bat` from the project root to start the local server and open the editor/site.
 
-The editor uses only Python's standard library. If Python is missing and `winget` is available, the setup script will install Python first. The start script also checks for Python before launching. The editor can add categories, add/edit/remove products, choose local images, preview unsaved changes, and update the JSON. Images can be selected from anywhere on the computer; when you update, the server copies them into `assets/products/`. Removed products do not delete image files from `assets/products/`.
+The editor uses only Python's standard library. If Python is missing and `winget` is available, the setup script will install Python first. The start script also checks for Python before launching. The editor can add categories, add/edit/remove products, choose local images, preview unsaved changes, and update the JSON. Images can be selected from anywhere on the computer; when you update, the server copies them into `assets/products/` and renames imported files with snake_case names like `amul_chocobar_1787000000000.png`. Removed products do not delete image files from `assets/products/` automatically, but the editor has a `Remove Unused Images` button to delete image files that are no longer referenced by current offers. Use `Update` afterwards to commit and push those image deletions.
 
 The `Update` button saves `data/offers.json`, commits offer data/image changes with a message like `Update offers for 2026-07-19`, and runs `git push`. GitHub push requires that the repository already has a working `origin` remote and GitHub authentication on the computer.
+
+When multiple people use the editor, each product has a stable hidden `id` in `data/offers.json`. The `Update` button pulls the latest GitHub copy first and merges changes by product/category id. Different products can be edited from different computers and will be combined. If two people change the same product before updating, the editor stops and asks you to reload before reapplying that product.
 
 ## Request Form and Contact Details
 
