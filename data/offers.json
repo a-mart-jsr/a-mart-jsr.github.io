@@ -111,6 +111,13 @@
       "image": "assets/products/kidney-beans-1786966481463.png",
       "offer": "B1G1",
       "price": "Rs 68"
+    },
+    {
+      "categoryId": "rakhi",
+      "name": "Rakhi",
+      "image": "assets/products/peacock-rakhi-1786966558368.jpeg",
+      "offer": "Peacock Rakhi",
+      "price": "Rs 69"
     }
   ]
 }
