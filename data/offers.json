@@ -160,6 +160,13 @@
       "image": "assets/products/crystak-rakhi-1786967956552.jpeg",
       "offer": "10% Off",
       "price": "Rs 55"
+    },
+    {
+      "categoryId": "rakhi",
+      "name": "Golden Elegance Rakhi",
+      "image": "assets/products/rakhi-1786969134449.png",
+      "offer": "5% Off",
+      "price": "Rs. 80"
     }
   ]
 }
