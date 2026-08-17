@@ -167,6 +167,13 @@
       "image": "assets/products/rakhi-1786969134449.png",
       "offer": "5% Off",
       "price": "Rs. 80"
+    },
+    {
+      "categoryId": "rakhi",
+      "name": "Beadwork Rakhi",
+      "image": "assets/products/beadwork-rakhi-1786969215010.png",
+      "offer": "10% Off",
+      "price": "Rs 35"
     }
   ]
 }
