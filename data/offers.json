@@ -153,6 +153,13 @@
       "image": "assets/products/pearl-rakhi-1786967904442.jpeg",
       "offer": "5% Off",
       "price": "Rs. 75"
+    },
+    {
+      "categoryId": "rakhi",
+      "name": "Crystal Rakhi",
+      "image": "assets/products/crystak-rakhi-1786967956552.jpeg",
+      "offer": "10% Off",
+      "price": "Rs 55"
     }
   ]
 }
