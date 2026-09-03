@@ -183,6 +183,15 @@
       "offer": "4.85% Off",
       "price": "Rs 95",
       "beforePrice": "Rs 100"
+    },
+    {
+      "id": "prod-192160f7-3c21-4387-9508-8cb7717165b7",
+      "categoryId": "himalaya",
+      "name": "Himalaya Anti Dandruff Conditioner 100ml",
+      "image": "assets/products/p5_1788422654374.jpeg",
+      "offer": "5% Off",
+      "price": "Rs 95",
+      "beforePrice": "Rs 100"
     }
   ]
 }
