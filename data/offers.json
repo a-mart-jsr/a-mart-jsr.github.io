@@ -147,6 +147,15 @@
       "offer": "10% Off",
       "price": "Rs 225",
       "beforePrice": "Rs 250"
+    },
+    {
+      "id": "prod-6778f202-72bb-4637-8b2e-c1b114d48663",
+      "categoryId": "himalaya",
+      "name": "Himalaya Gentle Daily Care Shampoo 180ml",
+      "image": "assets/products/p2_1788422173669.jpeg",
+      "offer": "10% Off",
+      "price": "Rs 135",
+      "beforePrice": "Rs 150"
     }
   ]
 }
