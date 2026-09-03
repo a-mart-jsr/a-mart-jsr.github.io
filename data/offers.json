@@ -165,6 +165,15 @@
       "offer": "10% Off",
       "price": "Rs 135",
       "beforePrice": "Rs 150"
+    },
+    {
+      "id": "prod-89645ce5-b66d-4fe9-966e-3011d284492d",
+      "categoryId": "himalaya",
+      "name": "Himalaya Gentle Anti Hair fall Shampoo 180ml",
+      "image": "assets/products/p4_1788422388531.jpeg",
+      "offer": "10% Off",
+      "price": "Rs 135",
+      "beforePrice": "Rs 150"
     }
   ]
 }
