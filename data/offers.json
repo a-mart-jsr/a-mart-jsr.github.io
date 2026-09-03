@@ -156,6 +156,15 @@
       "offer": "10% Off",
       "price": "Rs 135",
       "beforePrice": "Rs 150"
+    },
+    {
+      "id": "prod-7baaef2d-5d0f-44d3-9005-65433dc3a58a",
+      "categoryId": "himalaya",
+      "name": "Himalaya Gentle Anti Dandruff Shampoo 180ml",
+      "image": "assets/products/p3_1788422288915.jpeg",
+      "offer": "10% Off",
+      "price": "Rs 135",
+      "beforePrice": "Rs 150"
     }
   ]
 }
