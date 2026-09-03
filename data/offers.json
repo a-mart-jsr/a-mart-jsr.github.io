@@ -174,6 +174,15 @@
       "offer": "10% Off",
       "price": "Rs 135",
       "beforePrice": "Rs 150"
+    },
+    {
+      "id": "prod-9885a534-7689-437e-9dd8-d5ed38566f99",
+      "categoryId": "himalaya",
+      "name": "Himalaya Anti Hair fall Conditioner 100ml",
+      "image": "assets/products/p6_1788422573945.jpeg",
+      "offer": "4.85% Off",
+      "price": "Rs 95",
+      "beforePrice": "Rs 100"
     }
   ]
 }
