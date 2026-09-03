@@ -8,8 +8,8 @@
       "name": "Rakhi"
     },
     {
-      "id": "hair-care",
-      "name": "Hair Care"
+      "id": "himalaya",
+      "name": "Himalaya"
     }
   ],
   "products": [
@@ -140,8 +140,8 @@
       "beforePrice": "Rs 70"
     },
     {
-      "id": "prod-c947a330-f36c-4f26-8bbb-7d74be0cecdf",
-      "categoryId": "hair-care",
+      "id": "prod-db6579aa-310d-4979-b1cb-e99ce7174b61",
+      "categoryId": "himalaya",
       "name": "Himalaya Gentle Daily Care Shampoo 340ml",
       "image": "assets/products/product_1_1788421643879.png",
       "offer": "10% Off",
